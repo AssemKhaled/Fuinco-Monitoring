@@ -7,7 +7,6 @@ public class ApiResponseBuilder<T> {
     private Integer statusCode;
     private Boolean success;
     private String message;
-    private int size;
     private T body;
 
     public ApiResponse<T> build(){

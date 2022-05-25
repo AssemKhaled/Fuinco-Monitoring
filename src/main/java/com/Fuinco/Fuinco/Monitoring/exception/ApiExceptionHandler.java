@@ -1,4 +1,4 @@
-package com.Fuinco.Fuinco.Monitoring.exception;
+package com.Fuinco.Fuinco.Monitoring.repositories.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
