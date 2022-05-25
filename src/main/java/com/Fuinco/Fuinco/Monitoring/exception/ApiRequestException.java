@@ -1,5 +1,7 @@
-package com.Fuinco.Fuinco.Monitoring.repositories.exception;
-
+package com.Fuinco.Fuinco.Monitoring.exception;
+/**
+ * @author Assem
+ */
 public class ApiRequestException extends RuntimeException{
     public ApiRequestException(String message) {
         super(message);

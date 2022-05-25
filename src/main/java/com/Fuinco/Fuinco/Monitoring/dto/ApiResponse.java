@@ -1,7 +1,9 @@
-package com.Fuinco.Fuinco.Monitoring.dto.response;
+package com.Fuinco.Fuinco.Monitoring.dto;
 
 import lombok.*;
-
+/**
+ * @author Assem
+ */
 @AllArgsConstructor
 @NoArgsConstructor
 @Setter
@@ -12,5 +14,6 @@ public class ApiResponse<T> {
     private Integer statusCode;
     private Boolean success;
     private String message;
+    private int size;
     private T body;
 }
